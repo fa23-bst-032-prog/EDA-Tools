@@ -54,4 +54,8 @@ if uploaded_file is not None:
     - Use the summary stats above to understand variable ranges and averages.  
     - The heatmap highlights relationships between numeric variables.  
     - Missing value counts can help decide if cleaning is needed.  
-    - You can explore furthe
+    - You can explore further using filtering and visual tools.
+    """)
+else:
+    st.info("👆 Upload a CSV file to start the analysis.")
+
